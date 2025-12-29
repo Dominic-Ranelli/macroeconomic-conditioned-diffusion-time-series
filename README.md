@@ -1,6 +1,6 @@
 # Macro-Conditioned Diffusion Models for Financial Time Series
 
-This repository explores conditional diffusion models for complex, nonstationary time series, with a focus on financial markets as a primary application. The core contribution is a diffusion-based generative framework operating in the wavelet (time–frequency) domain and explicitly conditioned on macroeconomic and regime-level variables.
+This project explores conditional diffusion models for complex, nonstationary time series, with a focus on financial markets as a primary application. The core contribution is a diffusion-based generative framework operating in the wavelet (time–frequency) domain and explicitly conditioned on macroeconomic and regime-level variables.
 
 Instead of optimizing for point prediction, this work emphasizes generative realism: reproducing the statistical and temporal properties that characterize real financial data, including heavy tails, volatility clustering, and regime-dependent dynamics.
 
