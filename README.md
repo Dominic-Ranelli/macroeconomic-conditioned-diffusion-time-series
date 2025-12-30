@@ -59,13 +59,13 @@ Scope and non-claims:
 - Conditioning variables are not interpreted as structural causal drivers
 
 # Structure:
-notebooks/
+notebooks:
   Data preprocessing, wavelet transforms, model training, and evaluation
 
-paper/
+paper:
   Full academic write-up describing methodology, theory, and results
 
-visuals/
+visuals:
   Figures and diagnostic plots used for analysis and presentation
 
 # Potential applications include:
