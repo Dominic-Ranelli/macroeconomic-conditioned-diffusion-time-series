@@ -31,6 +31,26 @@ Key concepts implemented in this project:
 - Exhibits regime-dependent behavior under counterfactual conditioning with identical latent noise
 - Generates multiscale volatility dynamics that differ across expansionary and crisis regimes
 
+### Quantitative Results
+
+- **Heavy-tailed distributions**
+  - Excess kurtosis: **5.96 (empirical)** vs **1.30 (generated)** (Gaussian baseline = 0)
+  - 99% absolute return quantile: **1.66 (real)** vs **2.01 (generated)**
+  - 99.5% absolute return quantile: **1.89 (real)** vs **2.25 (generated)**
+  - Generated tails are slightly conservative while remaining stable and non-explosive
+
+- **Volatility clustering**
+  - Average autocorrelation of squared returns (lags 1–5):
+    - **0.186 (empirical)** vs **0.200 (generated)**
+  - Short-lag persistence and decay closely match real financial data
+  - No spurious long-range dependence observed
+
+- **Regime-conditioned generation**
+  - With identical latent diffusion noise, changing only the regime input produces:
+    - **Crisis regimes:** higher volatility, heavier tails, persistent clustering
+    - **Expansion regimes:** lower volatility, lighter tails, short-lived fluctuations
+  - Regime effects appear consistently in both time-domain returns and wavelet energy distributions
+
 Scope and non-claims:
 
 - This project does not aim to forecast future returns or volatility
