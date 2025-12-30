@@ -58,7 +58,7 @@ Scope and non-claims:
 - Tail index estimation and extreme value theory are outside the scope
 - Conditioning variables are not interpreted as structural causal drivers
 
-# Structure:
+# Structure
 notebooks:
   Data preprocessing, wavelet transforms, model training, and evaluation
 
@@ -68,7 +68,7 @@ paper:
 visuals:
   Figures and diagnostic plots used for analysis and presentation
 
-# Potential applications include:
+# Potential applications include
 - Scenario generation and stress testing
 - Regime-aware simulation of time series
 - Synthetic data generation under macroeconomic conditions
