@@ -31,7 +31,7 @@ Key concepts implemented in this project:
 - Exhibits regime-dependent behavior under counterfactual conditioning with identical latent noise
 - Generates multiscale volatility dynamics that differ across expansionary and crisis regimes
 
-# Quantitative Results (as seen in figures)
+# Quantitative Results (as seen in visuals)
 
 - **Heavy-tailed distributions**
   - Excess kurtosis: **5.96 (empirical)** vs **1.30 (generated)** (Gaussian baseline = 0)
